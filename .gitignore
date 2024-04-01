@@ -1,0 +1,36 @@
+# Prerequisites
+*.d
+ 
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+ 
+# Precompiled Headers
+*.gch
+*.pch
+ 
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+ 
+# Fortran module files
+*.mod
+*.smod
+ 
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+ 
+# Executables
+*.exe
+*.out
+*.app
+ 
+#build
+*\x64
+Game/.vs/Game/v17/ipch/AutoPCH/100e93650011f942/MAZECONCRETEFACTORY2.ipch
