@@ -1,2 +1,5 @@
 ﻿  main.cpp
-  programacion2d.vcxproj -> F:\Master\Progamacion 2D\2DPrograming\plantilla\project\Debug\programacion2d.exe
+C:\Users\tomas.rodrigo\Documents\GitHub\2DPrograming\plantilla\src\main.cpp(39,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tomas.rodrigo\Documents\GitHub\2DPrograming\plantilla\src\main.cpp(86,66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\tomas.rodrigo\Documents\GitHub\2DPrograming\plantilla\src\main.cpp(86,44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  programacion2d.vcxproj -> C:\Users\tomas.rodrigo\Documents\GitHub\2DPrograming\plantilla\project\Debug\programacion2d.exe
