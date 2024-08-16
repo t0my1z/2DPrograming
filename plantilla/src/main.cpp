@@ -8,6 +8,7 @@
 using namespace std;
 
 #include "vector2d.h"
+
 #include <cmath> // Include for trigonometric functions
 #include <string>
 #include <sstream>
@@ -45,8 +46,7 @@ int main()
 	
 	if (!glfwInit())
 	{
-		//Error
-		glfwTerminate();
+		std::cout << "GLFW Failed To Init" << std::endl;
 	}
 
 	double elapsedTime = glfwGetTime();
@@ -80,7 +80,7 @@ int main()
 		vec2 dirToVec = screenMiddlePoint - mousePos;
 		float distTo = vlen(dirToVec);
 		vec2 offsetedCirclePos = vec2(mousePos.x + offsetX, mousePos.y + offsetY);
-		//float angle = vang(offsetedCirclePos, mousePos);
+
 		float angle = CalculateAngle(offsetedCirclePos, mousePos);
 
 		std::string name = "DistOfCursor: " + stringFromNumber(distTo) + " -- " + "AngleFromMiddle: " + stringFromNumber(angle);
